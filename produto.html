@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geek & Gamer Shop | Teclado Mecânico Magnético</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-gamepad"></i> GEEK & GAMER
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#produtos">Produtos</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+          <li><a href="cadastro.html">Conta / Cadastro</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <a href="carrinho.html" aria-label="Carrinho"><i class="fa-solid fa-cart-shopping" title="Carrinho"></i></a>
+        <a href="cadastro.html" aria-label="Minha Conta"><i class="fa-solid fa-user" title="Minha Conta"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Início</a> &gt; <a href="index.html#produtos">Periféricos</a> &gt; <span>Teclado Mecânico Magnético</span>
+    </nav>
+
+    <div class="product-detail-grid">
+      <section class="product-gallery">
+        <img id="mainImg" src="img/image copy.png" > 
+        <div class="thumbnail-list">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_890329-MLA99573027644_122025-F.webp" alt="Miniatura 1" class="thumb-item" onclick="document.getElementById('mainImg').src=this.src">
+          <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=300&auto=format&fit=crop" alt="Miniatura 2" class="thumb-item" onclick="document.getElementById('mainImg').src=this.src">
+          <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=300&auto=format&fit=crop" alt="Miniatura 3" class="thumb-item" onclick="document.getElementById('mainImg').src=this.src">
+          <img src="https://images.unsplash.com/photo-1595225476474-87563907a212?w=300&auto=format&fit=crop" alt="Miniatura 4" class="thumb-item" onclick="document.getElementById('mainImg').src=this.src">
+        </div>
+      </section>
+
+      <section class="product-info">
+        <h1>Teclado Mecânico Magnético Aula Win60 HE 60%</h1>
+        
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <span>(4.9 - 86 avaliações)</span>
+        </div>
+
+        <div class="price-box">
+          <span class="price-old">R$ 649,00</span><br>
+          <span class="price-current">R$ 499,00</span>
+        </div>
+
+        <div class="options-group">
+          <label for="switch-select">Tipo de Switch Magnético:</label>
+          <select id="switch-select" name="switch">
+            <option value="hall-linear">Switch Hall Effect Linear (Atuação 0.1mm)</option>
+            <option value="hall-tactile">Switch Hall Effect Tátil</option>
+          </select>
+        </div>
+
+        <div class="options-group">
+          <label for="color-select">Cor do Gabinete:</label>
+          <select id="color-select" name="color">
+            <option value="black">Preto RGB Chroma</option>
+            <option value="white">Branco Ice RGB</option>
+          </select>
+        </div>
+
+        <a href="carrinho.html" class="btn btn-block"><i class="fa-solid fa-cart-plus"></i> Adicionar ao Carrinho</a>
+      </section>
+    </div>
+
+    <section class="specs-section">
+      <h2>Especificações Técnicas</h2>
+      <table class="specs-table">
+        <tbody>
+          <tr>
+            <th scope="row">Marca</th>
+            <td>Aula Gaming</td>
+          </tr>
+          <tr>
+            <th scope="row">Modelo</th>
+            <td>Win60 HE Rapid Trigger</td>
+          </tr>
+          <tr>
+            <th scope="row">Tipo de Switch</th>
+            <td>Magnético de Efeito Hall (HE)</td>
+          </tr>
+          <tr>
+            <th scope="row">Conectividade</th>
+            <td>Cabo USB-C Trançado Removível (1.8m)</td>
+          </tr>
+          <tr>
+            <th scope="row">Dimensões</th>
+            <td>291 x 102 x 38 mm</td>
+          </tr>
+          <tr>
+            <th scope="row">Peso</th>
+            <td>620g</td>
+          </tr>
+          <tr>
+            <th scope="row">Garantia</th>
+            <td>12 Meses com Fabricante</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2026 Geek & Gamer Shop - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

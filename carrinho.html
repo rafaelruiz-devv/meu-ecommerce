@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geek & Gamer Shop | Carrinho de Compras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-gamepad"></i> GEEK & GAMER
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#produtos">Produtos</a></li>
+          <li><a href="carrinho.html">Carrinho</a></li>
+          <li><a href="cadastro.html">Conta / Cadastro</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <a href="carrinho.html" aria-label="Carrinho"><i class="fa-solid fa-cart-shopping" title="Carrinho"></i></a>
+        <a href="cadastro.html" aria-label="Minha Conta"><i class="fa-solid fa-user" title="Minha Conta"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Início</a> &gt; <span>Carrinho de Compras</span>
+    </nav>
+
+    <div class="cart-layout">
+      <section class="cart-table-container">
+        <table class="cart-table">
+          <caption>Seu Loot de Compras</caption>
+          <thead>
+            <tr>
+              <th scope="col">Produto</th>
+              <th scope="col">Preço Unitário</th>
+              <th scope="col">Quantidade</th>
+              <th scope="col">Subtotal</th>
+              <th scope="col">Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="product-item-cell">
+                  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_890329-MLA99573027644_122025-F.webp" alt="Teclado Magnético" class="cart-thumb">
+                  <div>
+                    <strong>Teclado Mecânico Magnético Win60</strong><br>
+                    <small style="color: var(--text-muted);">Periféricos</small>
+                  </div>
+                </div>
+              </td>
+              <td>R$ 499,00</td>
+              <td><input type="number" min="1" value="1"></td>
+              <td>R$ 499,00</td>
+              <td><button type="button" class="btn-danger" title="Remover item"><i class="fa-solid fa-trash-can"></i></button></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product-item-cell">
+                  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_779223-MLA115973197641_082026-F.webp" alt="Mouse Logitech G PRO" class="cart-thumb">
+                  <div>
+                    <strong>Mouse Gamer Logitech G PRO 2</strong><br>
+                    <small style="color: var(--text-muted);">Periféricos</small>
+                  </div>
+                </div>
+              </td>
+              <td>R$ 799,90</td>
+              <td><input type="number" min="1" value="1"></td>
+              <td>R$ 799,90</td>
+              <td><button type="button" class="btn-danger" title="Remover item"><i class="fa-solid fa-trash-can"></i></button></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="product-item-cell">
+                  <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw2525hm/media-gallery/monitor-alienware-aw2525hm-bk-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=338&qlt=100,0&resMode=sharp2&size=338,402" alt="Monitor Alienware" class="cart-thumb">
+                  <div>
+                    <strong>Monitor Gamer Alienware 25" 320Hz</strong><br>
+                    <small style="color: var(--text-muted);">Monitores</small>
+                  </div>
+                </div>
+              </td>
+              <td>R$ 1.918,99</td>
+              <td><input type="number" min="1" value="1"></td>
+              <td>R$ 1.918,99</td>
+              <td><button type="button" class="btn-danger" title="Remover item"><i class="fa-solid fa-trash-can"></i></button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="5">🚀 Parabéns! Seu pedido ultrapassou R$ 250,00 e ganhou <strong>FRETE GRÁTIS</strong>!</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <aside class="order-summary">
+        <h2>Resumo do Pedido</h2>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>R$ 3.217,89</span>
+        </div>
+        <div class="summary-row">
+          <span>Frete</span>
+          <span style="color: var(--success-color); font-weight: bold;">GRÁTIS</span>
+        </div>
+
+        <div class="coupon-box">
+          <input type="text" placeholder="Cupom de desconto">
+          <button type="button" class="btn" style="padding: 8px 12px;">Aplicar</button>
+        </div>
+
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>R$ 3.217,89</span>
+        </div>
+
+        <a href="cadastro.html" class="btn-checkout" style="margin-top: 20px;">Finalizar Compra →</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2026 Geek & Gamer Shop - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
