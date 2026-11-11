@@ -3,10 +3,10 @@
 Projeto prático desenvolvido na Unidade Curricular de **Linguagem de Marcação (HTML5 & CSS3)**.
 
 ## 🌐 Links das Páginas Publicadas (GitHub Pages)
-- 🏠 [Vitrine Principal (index.html)](https://SEU-USUARIO.github.io/MEU-ECOMMERCE/index.html)
-- 🔍 [Detalhes do Produto (produto.html)](https://SEU-USUARIO.github.io/MEU-ECOMMERCE/produto.html)
-- 🛍️ [Carrinho de Compras (carrinho.html)](https://SEU-USUARIO.github.io/MEU-ECOMMERCE/carrinho.html)
-- 👤 [Cadastro e Checkout (cadastro.html)](https://SEU-USUARIO.github.io/MEU-ECOMMERCE/cadastro.html)
+- 🏠 [Vitrine Principal (index.html)](https://rafaelruiz-devv.github.io/MEU-ECOMMERCE/index.html)
+- 🔍 [Detalhes do Produto (produto.html)](https://rafaelruiz-devv.github.io/MEU-ECOMMERCE/produto.html)
+- 🛍️ [Carrinho de Compras (carrinho.html)](https://rafaelruiz-devv.github.io/MEU-ECOMMERCE/carrinho.html)
+- 👤 [Cadastro e Checkout (cadastro.html)](https://rafaelruiz-devv.github.io/MEU-ECOMMERCE/cadastro.html)
 
 ---
 
